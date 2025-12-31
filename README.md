@@ -111,10 +111,10 @@ curl -X POST http://localhost:3000/healthcare/submit \
 
 ### Blood Pressure Risk
 
-- Normal (<120/<80): 1 point
-- Elevated (120-129/<80): 2 points
-- Stage 1 (130-139 OR 80-89): 3 points
-- Stage 2 (≥140 OR ≥90): 4 points
+- Normal (<120/<80): 0 point
+- Elevated (120-129/<80): 1 points
+- Stage 1 (130-139 OR 80-89): 2 points
+- Stage 2 (≥140 OR ≥90): 3 points
 
 ### Temperature Risk
 
@@ -124,6 +124,6 @@ curl -X POST http://localhost:3000/healthcare/submit \
 
 ### Age Risk
 
-- Under 40: 1 point
+- Under 40: 0 point
 - 40-65: 1 point
 - Over 65: 2 points
